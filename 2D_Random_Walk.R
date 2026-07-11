@@ -40,7 +40,7 @@ graph <- ggplot(
   labs(
     title="2D Random Walk",
     color="Start/End"
-  ) +
+  ) + 
   scale_x_continuous(
     limits=c(-n, n),
     breaks=seq(-n, n, by=1)
